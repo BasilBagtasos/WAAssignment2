@@ -1,0 +1,146 @@
+body {
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+  h1.start {
+    color:#e6d8aa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    background-color: rgba(18, 7, 56,0.8);
+    background
+    border-bottom: 6px #e6d8aa;
+    border-bottom-style:solid ;
+    border-radius: 24px;
+
+
+  }
+
+  h3.start {
+    color:#e6d8aa;
+    border-bottom: 1px #e6d8aa;
+    border-bottom-style: solid;
+    font-size: 27px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+  }
+  .border-fit {
+    display: inline-block;
+    padding: 5px 10px; 
+    align-items: center;
+    min-height: 100%;
+    padding-bottom: 50px;
+  }
+  
+  h2.paragraphstart {
+    color:#e6d8aa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 10px;
+    border-bottom: 5px #e6d8aa;
+    border-bottom-style: solid;
+    font-size: 27px;
+
+  }
+  .logo {
+    margin-right: 10px; 
+    float: right;
+  }
+  p {
+    color: #e6d8aa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgba(18, 7, 56,0.8);
+    border-radius: 24px;
+
+    
+  }
+  
+  table {
+    border: #e6d8aa 2px solid;
+    border-collapse: seperate;
+    border-spacing: 0;
+    border-radius:10px ;
+    width: 50%;
+    background-color: #e6d8aa;
+
+  }
+  th,td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e6d8aa;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(18, 7, 56);
+    border: #e6d8aa 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .hoverable:hover {
+    color: rgb(240, 192, 104); /* Change color to red on hover */
+  }
+    
+  a {
+    color: #e6d8aa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: rgba(18, 7, 56,0.8);
+    overflow: hidden;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #e6d8aa;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 20px;
+  }
+
+  .navbar a:hover {
+    background-color: rgba(39, 16, 124, 0.8);
+    
+  }
+  
+  audio {
+    width: 100%;
+
+  }
+
+  audio::-webkit-media-controls-panel {
+    background-color: rgba(14, 6, 41, 0.8);
+    color: #e6d8aa;
+    border-radius: 10px;
+    filter: brightness(1)
+  }
+  audio::-webkit-media-controls-play-button {
+    background-color: #e6d8aa; 
+    color:#e6d8aa;
+    border-radius: 50%;
+  }
+  audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #e6d8aa; 
+}
+audio::-webkit-media-controls-volume-slider-container {
+  width: 100px; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.giffloatright {
+  float: right;
+}
